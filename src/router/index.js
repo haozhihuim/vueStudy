@@ -4,6 +4,8 @@ import Home from '../views/Home.vue'
 import Manage from '@/views/Manage.vue'
 import New from '@/views/New.vue'
 import Search from '@/views/Search.vue'
+import test from '@/views/test.vue'
+import Closure from '@/views/Closure.vue'
 Vue.use(VueRouter)
 
 const routes = [
@@ -26,6 +28,16 @@ const routes = [
     path: '/search',
     name: 'search',
     component: Search
+  },
+  {
+    path: '/test',
+    name: 'test',
+    component: test
+  },
+  {
+    path: '/closure',
+    name: 'closure',
+    component: Closure
   }
 ]
 
